@@ -17,11 +17,12 @@ export default function ProjectsPage() {
       tech: ["Next.js", "3Dmol.js", "Python", "Docusaurus"],
     },
     {
-      title: "Interactive Job Board",
+      title: "ICLR Blog • Fixing Long-Range Memory Failures in State Space Models",
       description:
-        "Built full-stack job board with pagination, infinite scroll, and server caching.",
-      impact: "10k+ records rendered efficiently",
-      tech: ["React", "Next.js", "SWR", "Tailwind"],
+        "A lightweight polarization trick stabilizes Mamba/SSM memory by enforcing both fast-resetting and non-decaying channels.",
+      impact: "Substantially improves long-context retrieval with almost no extra compute or model complexity.",
+      tech: ["Python", "PyTorch", "Mamba/S4"],
+      blogLink: "https://iclr-blogposts.github.io/2026/blog/2026/fixing-bottlenecks-in-state-space-models/"
     },
   ];
 
