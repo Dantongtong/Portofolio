@@ -8,6 +8,7 @@ export default function ProjectsPage() {
         "Led frontend development of a React + MFE platform integrated with AEM. Enabled digital delivery of regulatory and marketing letters.",
       impact: "$3M+ annual paper & ops cost saved",
       tech: ["React", "TypeScript", "Module Federation", "AEM", "REST APIs"],
+      slug: "digital-letters",
     },
     {
       title: "OpenPhase • AI + LLPS Dataset Platform",
@@ -15,6 +16,7 @@ export default function ProjectsPage() {
         "Built interactive protein visualization tools and condition-aware LLPS analysis modules.",
       impact: "Core open-source contribution used by 1000+ researchers",
       tech: ["Next.js", "3Dmol.js", "Python", "Docusaurus"],
+      slug: "openphase-llps",
     },
     {
       title: "ICLR Blog • Fixing Long-Range Memory Failures in State Space Models",
@@ -22,7 +24,16 @@ export default function ProjectsPage() {
         "A lightweight polarization trick stabilizes Mamba/SSM memory by enforcing both fast-resetting and non-decaying channels.",
       impact: "Substantially improves long-context retrieval with almost no extra compute or model complexity.",
       tech: ["Python", "PyTorch", "Mamba/S4"],
-      blogLink: "https://iclr-blogposts.github.io/2026/blog/2026/fixing-bottlenecks-in-state-space-models/"
+      externalLink: "https://iclr-blogposts.github.io/2026/blog/2026/fixing-bottlenecks-in-state-space-models/",
+      slug: "state-space-model",
+    },
+    {
+      title: "Barclays • Ad server library",
+      description:
+        "Built public library to render advertisements on barclays credit card website. By changing pageName and placement, the library can be applied any page anywhere to render ads",
+      impact: "Core ad library used on 10+ pages in barclays credit card website",
+      tech: ["Sas match", "Adobe Experience platform(AEM)", "Ad", "library component", "Javascript", "React"],
+      slug: "ad-server",
     },
   ];
 

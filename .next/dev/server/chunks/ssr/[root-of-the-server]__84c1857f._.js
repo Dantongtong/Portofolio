@@ -41,38 +41,50 @@ __turbopack_context__.s([
     ()=>ProjectCard
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$TechBadge$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/components/TechBadge.tsx [app-rsc] (ecmascript)");
 ;
 ;
-function ProjectCard({ title, description, impact, tech }) {
+;
+function ProjectCard({ title, description, impact, tech, slug, externalLink }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "border border-slate-200 rounded-lg p-5 hover:shadow-md transition",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                className: "text-xl font-semibold",
-                children: title
-            }, void 0, false, {
-                fileName: "[project]/src/app/components/ProjectCard.tsx",
-                lineNumber: 13,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-slate-700 mt-2",
-                children: description
-            }, void 0, false, {
-                fileName: "[project]/src/app/components/ProjectCard.tsx",
-                lineNumber: 15,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "mt-2 text-indigo-600 font-medium",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                href: `/projects/${slug}`,
+                className: "block group",
                 children: [
-                    "Impact: ",
-                    impact
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "text-xl font-semibold group-hover:underline",
+                        children: title
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/components/ProjectCard.tsx",
+                        lineNumber: 25,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-slate-700 mt-2",
+                        children: description
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/components/ProjectCard.tsx",
+                        lineNumber: 29,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "mt-2 text-indigo-600 font-medium",
+                        children: [
+                            "Impact: ",
+                            impact
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/components/ProjectCard.tsx",
+                        lineNumber: 30,
+                        columnNumber: 9
+                    }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/ProjectCard.tsx",
-                lineNumber: 17,
+                lineNumber: 24,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -81,18 +93,44 @@ function ProjectCard({ title, description, impact, tech }) {
                         label: t
                     }, t, false, {
                         fileName: "[project]/src/app/components/ProjectCard.tsx",
-                        lineNumber: 21,
+                        lineNumber: 38,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/app/components/ProjectCard.tsx",
-                lineNumber: 19,
+                lineNumber: 36,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "mt-4 flex gap-4 text-sm",
+                children: externalLink ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                    href: externalLink,
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                    className: "text-slate-600 hover:text-indigo-600",
+                    children: "Details →"
+                }, void 0, false, {
+                    fileName: "[project]/src/app/components/ProjectCard.tsx",
+                    lineNumber: 45,
+                    columnNumber: 11
+                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                    href: `/projects/${slug}`,
+                    className: "text-slate-600 hover:text-indigo-600",
+                    children: "Details →"
+                }, void 0, false, {
+                    fileName: "[project]/src/app/components/ProjectCard.tsx",
+                    lineNumber: 54,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/components/ProjectCard.tsx",
+                lineNumber: 43,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/components/ProjectCard.tsx",
-        lineNumber: 12,
+        lineNumber: 22,
         columnNumber: 5
     }, this);
 }
@@ -120,7 +158,8 @@ function ProjectsPage() {
                 "Module Federation",
                 "AEM",
                 "REST APIs"
-            ]
+            ],
+            slug: "digital-letters"
         },
         {
             title: "OpenPhase • AI + LLPS Dataset Platform",
@@ -131,18 +170,34 @@ function ProjectsPage() {
                 "3Dmol.js",
                 "Python",
                 "Docusaurus"
-            ]
+            ],
+            slug: "openphase-llps"
         },
         {
-            title: "Interactive Job Board",
-            description: "Built full-stack job board with pagination, infinite scroll, and server caching.",
-            impact: "10k+ records rendered efficiently",
+            title: "ICLR Blog • Fixing Long-Range Memory Failures in State Space Models",
+            description: "A lightweight polarization trick stabilizes Mamba/SSM memory by enforcing both fast-resetting and non-decaying channels.",
+            impact: "Substantially improves long-context retrieval with almost no extra compute or model complexity.",
             tech: [
-                "React",
-                "Next.js",
-                "SWR",
-                "Tailwind"
-            ]
+                "Python",
+                "PyTorch",
+                "Mamba/S4"
+            ],
+            externalLink: "https://iclr-blogposts.github.io/2026/blog/2026/fixing-bottlenecks-in-state-space-models/",
+            slug: "state-space-model"
+        },
+        {
+            title: "Barclays • Ad server library",
+            description: "Built public library to render advertisements on barclays credit card website. By changing pageName and placement, the library can be applied any page anywhere to render ads",
+            impact: "Core ad library used on 10+ pages in barclays credit card website",
+            tech: [
+                "Sas match",
+                "Adobe Experience platform(AEM)",
+                "Ad",
+                "library component",
+                "Javascript",
+                "React"
+            ],
+            slug: "ad-server"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -153,7 +208,7 @@ function ProjectsPage() {
                 children: "Projects"
             }, void 0, false, {
                 fileName: "[project]/src/app/projects/page.tsx",
-                lineNumber: 30,
+                lineNumber: 42,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -162,18 +217,18 @@ function ProjectsPage() {
                         ...p
                     }, p.title, false, {
                         fileName: "[project]/src/app/projects/page.tsx",
-                        lineNumber: 34,
+                        lineNumber: 46,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/app/projects/page.tsx",
-                lineNumber: 32,
+                lineNumber: 44,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/projects/page.tsx",
-        lineNumber: 29,
+        lineNumber: 41,
         columnNumber: 5
     }, this);
 }
