@@ -27,7 +27,6 @@
 
 @layer theme {
   :root, :host {
-    --color-blue-600: #155dfc;
     --color-indigo-50: #eef2ff;
     --color-indigo-200: #c7d2ff;
     --color-indigo-500: #625fff;
@@ -72,7 +71,6 @@
 
   @supports (color: lab(0% 0 0)) {
     :root, :host {
-      --color-blue-600: lab(44.0605% 29.0279 -86.0352);
       --color-indigo-50: lab(95.4818% .411302 -6.78529);
       --color-indigo-200: lab(84.4329% 3.18977 -23.9688);
       --color-indigo-500: lab(48.295% 38.3129 -81.9673);
@@ -443,10 +441,6 @@
     margin-block-end: calc(calc(var(--spacing) * 10) * calc(1 - var(--tw-space-y-reverse)));
   }
 
-  .rounded {
-    border-radius: .25rem;
-  }
-
   .rounded-lg {
     border-radius: var(--radius-lg);
   }
@@ -496,10 +490,6 @@
 
   .bg-white {
     background-color: var(--color-white);
-  }
-
-  .p-4 {
-    padding: calc(var(--spacing) * 4);
   }
 
   .p-5 {
@@ -597,10 +587,6 @@
     letter-spacing: var(--tracking-tight);
   }
 
-  .text-blue-600 {
-    color: var(--color-blue-600);
-  }
-
   .text-indigo-600 {
     color: var(--color-indigo-600);
   }
@@ -665,12 +651,6 @@
   @media (hover: hover) {
     .hover\:text-indigo-600:hover {
       color: var(--color-indigo-600);
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:underline:hover {
-      text-decoration-line: underline;
     }
   }
 

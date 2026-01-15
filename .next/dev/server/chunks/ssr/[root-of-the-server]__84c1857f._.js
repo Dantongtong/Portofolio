@@ -190,12 +190,12 @@ function ProjectsPage() {
             description: "Built public library to render advertisements on barclays credit card website. By changing pageName and placement, the library can be applied any page anywhere to render ads",
             impact: "Core ad library used on 10+ pages in barclays credit card website",
             tech: [
-                "Sas match",
                 "Adobe Experience platform(AEM)",
-                "Ad",
                 "library component",
                 "Javascript",
-                "React"
+                "React",
+                "Ad",
+                "Sas match"
             ],
             slug: "ad-server"
         }
